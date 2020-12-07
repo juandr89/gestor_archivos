@@ -1,0 +1,21 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "7fb0ca005047608191094f4d2ba011d5cca1c06e2780a26930d1c48bea11f9cc"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "flask": "1.1.2",
+            "python_version": "3.7.5"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {},
+    "develop": {}
+}

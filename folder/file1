@@ -1,0 +1,17 @@
+Crear archivos y carpetas
+Cambiar nombres
+Eliminar
+Copiar/pegar
+Ver información de permisos 
+Cambiar permisos de objetos
+Cambiar propietario
+Mover/Cortar
+
+
+$(document).ready(function(){
+$('button').click(function() {
+var databack = $("#myModal #exampleInputEmail")
+$('#result').html();
+});
+});
+

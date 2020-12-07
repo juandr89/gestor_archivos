@@ -1,0 +1,141 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+/* correcto */
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  border: none;
+  position: relative;
+  
+}
+
+.container{
+  border: none;
+  position: absolute;
+
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+
+input{
+  width: 100%;
+  padding: 8px ;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.modal-header{
+  padding: 2px ;
+
+}
+
+.modal-footer{
+  padding: 8px ;
+}
+
+.btn{
+  color: black;
+  background: transparent;
+  border: 1px solid #0099CC;
+  border-radius: 5px;
+  padding: 8px ;
+
+}
+
+.btn:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.btnopc{
+  width: 50%;
+  color: black;
+  background: transparent;
+  border: 1px solid #0099CC;
+  border-radius: 5px;
+  padding: 6px ;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.btnopc:hover {
+  background-color: #008CBA;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+  padding: 6px ;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.text-center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.centtext{
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.open-MenuModal{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
